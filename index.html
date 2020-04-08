@@ -31,7 +31,7 @@
     <div class="container">
         <div id="9" class="row time-block">
             <div class="col-md-1 hour">9am</div>
-              <textarea class="description col-md-10"></textarea>
+              <input class="description col-md-10">
                 <button class="btn saveBtn col-md-1">
                   <i class="far fa-share-square"></i>
                 </button>
@@ -94,9 +94,38 @@
         </div>
 
     </div>
+    <script>
+      $(document).ready(function() {
+        jQuery("<div/>", {
+          id: "9",
+          class: "row time-block",
+        }).appendTo(".container");
+
+        jQuery("<div/>", {
+          class: "hour col-md-1",
+          text: "9am"
+        }).appendTo("time-block")
+
+        jQuery("textarea/>", {
+          class: "description col-md-10",
+        }).appendTo("hour")
+
+        jQuery("button/>", {
+          class: "saveBtn btn col-md-1",
+        }).appendTo("description")
+
+        jQuery("<i/>", {
+          class: "far fa-share-square",
+        }).appendTo("saveBtn")
+      })
+    </script>
+
+    
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="moment.js"></script>
     <script src="script.js"></script>
+    
   </body>
 </html>
