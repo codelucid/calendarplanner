@@ -1,9 +1,6 @@
 
 
 
-// $(document).ready(function(){
-    
-// });   
 
 var hour = moment().hours();
 console.log(hour);
@@ -32,19 +29,19 @@ $(document).ready(function(){
         $(this).val(localStorage.getItem(id));
     })
 
-    // $(".description").each(function(){
-    //     var rowHour = $(this).parent().attr("id")
-    //     var rowNumber = parseInt(rowHour);
-    //     console.log(rowNumber);
-    //     if (rowNumber === hour) {
-    //         $(this).addClass("present");
-    //     } else if (rowNumber < hour) {
-    //         $(this).addClass("past");
-    //     } else {
-    //         $(rowNumber).addClass("future");
-    //     };
+    $(".description").each(function(){
+        var rowHour = $(this).parent().attr("id")
+        var rowNumber = parseInt(rowHour);
+        console.log(rowNumber);
+        if (rowNumber === hour) {
+            $(this).addClass("present");
+        } else if (rowNumber < hour) {
+            $(this).addClass("past");
+        } else {
+            $(this).addClass("future");
+        };
     
-    // });
+    });
     
 });
 
