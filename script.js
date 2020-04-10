@@ -1,15 +1,52 @@
+
+
+
+// $(document).ready(function(){
+    
+// });   
+
+var hour = moment().hours();
+console.log(hour);
+
 $(document).ready(function(){
     
-    $('currentDay').text(moment().format('MMMM Do YYYY, h:mm:ss a'));
-   
+    function getDate(){
+        $('#currentDay').text(moment().format('MMMM Do YYYY, h:mm:ss a'));
+    
+    };
+    
+    
+    setInterval(getDate,1000);
+
 
     $('.saveBtn').click(function(){
-        alert('btn save is clicked')
+      
+        var value = $(this).siblings(".description").val();
+        var locationId = $(this).parent().attr("id");
+      
+        localStorage.setItem(locationId, value);
     });
 
-    var newDiv = $("<div></div>").newDiv("")
+    $(".description").each(function(){
+        var id = $(this).parent().attr("id");
+        $(this).val(localStorage.getItem(id));
+    })
 
-
+    // $(".description").each(function(){
+    //     var rowHour = $(this).parent().attr("id")
+    //     var rowNumber = parseInt(rowHour);
+    //     console.log(rowNumber);
+    //     if (rowNumber === hour) {
+    //         $(this).addClass("present");
+    //     } else if (rowNumber < hour) {
+    //         $(this).addClass("past");
+    //     } else {
+    //         $(rowNumber).addClass("future");
+    //     };
+    
+    // });
+    
 });
+
 
 
