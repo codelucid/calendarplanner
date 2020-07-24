@@ -29,6 +29,7 @@ This is what the user needs to know about using the repo:
 - Select the time of day
 ![Select Time](/stepTwo.png)
 - Incorporate your event in the calendar
+![Incorporate Event](/stepThree.png)
 
 ## License  
 
