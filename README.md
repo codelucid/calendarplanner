@@ -38,6 +38,7 @@ This is what the user needs to know about using the repo:
 ![Local Storage](/stepSix.png)
 - Delete event from local storage
 ![Delete Event](/stepSeven.png)
+- Enjoy the Date and Time for scheduling
 
 ## License  
 
