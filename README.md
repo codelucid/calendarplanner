@@ -26,6 +26,7 @@ To install necessary dependencies, run the following command:
 This is what the user needs to know about using the repo:
 - Plan the correct workday
 ![Select Day](/stepOne.png)
+- Select the time of day
 
 ## License  
 
