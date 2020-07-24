@@ -30,6 +30,7 @@ This is what the user needs to know about using the repo:
 ![Select Time](/stepTwo.png)
 - Incorporate your event in the calendar
 ![Incorporate Event](/stepThree.png)
+- Add another event to your day
 
 ## License  
 
