@@ -34,7 +34,7 @@ This is what the user needs to know about using the repo:
 ![Add another event](/stepFour.png)
 - When event is finished, remove from schedule
 ![Remove event](/stepFive.png)
-- Save event to local storage for future reference; click <span style="color:blue"> *blue button*</span>
+- Save event to local storage for future reference; click blue button
 ## License  
 
 The license for this project:
