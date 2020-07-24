@@ -31,7 +31,7 @@ This is what the user needs to know about using the repo:
 - Incorporate your event in the calendar
 ![Incorporate Event](/stepThree.png)
 - Add another event to your day
-
+![Add another event](/stepFour.png)
 ## License  
 
 The license for this project:
