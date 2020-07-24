@@ -33,6 +33,7 @@ This is what the user needs to know about using the repo:
 - Add another event to your day
 ![Add another event](/stepFour.png)
 - When event is finished, remove from schedule
+![Remove event](/stepFive.png)
 ## License  
 
 The license for this project:
