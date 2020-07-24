@@ -27,6 +27,7 @@ This is what the user needs to know about using the repo:
 - Plan the correct workday
 ![Select Day](/stepOne.png)
 - Select the time of day
+![Select Time](/stepTwo.png)
 
 ## License  
 
