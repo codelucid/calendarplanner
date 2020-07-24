@@ -36,6 +36,7 @@ This is what the user needs to know about using the repo:
 ![Remove event](/stepFive.png)
 - Save event to local storage for future reference; click blue button
 ![Local Storage](/stepSix.png)
+- Delete event from local storage
 
 ## License  
 
