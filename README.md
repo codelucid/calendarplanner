@@ -32,6 +32,7 @@ This is what the user needs to know about using the repo:
 ![Incorporate Event](/stepThree.png)
 - Add another event to your day
 ![Add another event](/stepFour.png)
+- When event is finished, remove from schedule
 ## License  
 
 The license for this project:
