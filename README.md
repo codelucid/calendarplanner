@@ -35,6 +35,8 @@ This is what the user needs to know about using the repo:
 - When event is finished, remove from schedule
 ![Remove event](/stepFive.png)
 - Save event to local storage for future reference; click blue button
+![Local Storage](/stepSix.png)
+
 ## License  
 
 The license for this project:
