@@ -1,6 +1,6 @@
 # calendarplanner
-  
-![GitHub license](https://img.shields.io/badge/license-None-brightgreen)
+
+![GitHub license](https://img.shields.io/badge/Skill-HTML-brightgreen) ![GitHub license](https://img.shields.io/badge/Skill-CSS-blue) ![GitHub license](https://img.shields.io/badge/Skill-JS-red) 
 
 ## Description  
 
@@ -43,8 +43,7 @@ This is what the user needs to know about using the repo:
 
 ## License  
 
-The license for this project:
-A license is not necessary for this project.  
+![GitHub license](https://img.shields.io/badge/license-None-brightgreen)
 
 ## Contributing  
 
